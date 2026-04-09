@@ -1,0 +1,9 @@
+[project]
+name = "iot-anomaly-detection"
+version = "0.1.0"
+description = "IoT anomaly detection API for Vercel deployment"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.scripts]
+app = "api.index:app"

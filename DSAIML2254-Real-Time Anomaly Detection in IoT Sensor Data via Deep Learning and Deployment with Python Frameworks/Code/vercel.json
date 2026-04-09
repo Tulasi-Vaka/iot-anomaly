@@ -2,21 +2,21 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.py",
+      "src": "api/app.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.py"
+      "dest": "api/app.py"
     }
   ],
   "env": {
     "PYTHON_VERSION": "3.10"
   },
   "functions": {
-    "index.py": {
+    "api/app.py": {
       "maxDuration": 30
     }
   }
