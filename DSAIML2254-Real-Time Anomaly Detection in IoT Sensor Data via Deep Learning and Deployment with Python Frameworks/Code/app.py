@@ -120,8 +120,8 @@ with st.spinner("Loading model and reference data..."):
 
 # Sidebar
 with st.sidebar:
-    st.markdown('<h2 style="color: white;">📊 Control Panel</h2>', unsafe_allow_html=True)
-    st.markdown('<p style="color: white;">Upload your IoT sensor data for analysis</p>', unsafe_allow_html=True)
+    st.markdown('<h2 style="color: #1cb5e0;">📊 Control Panel</h2>', unsafe_allow_html=True)
+    st.markdown('<p style="color: #1cb5e0;">Upload your IoT sensor data for analysis</p>', unsafe_allow_html=True)
     
     uploaded_file = st.file_uploader("Choose CSV file", type=['csv'])
     
